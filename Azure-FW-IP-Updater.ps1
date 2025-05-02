@@ -9,6 +9,9 @@
 .NOTES
     File Name      : Manage-AzureIPWhitelisting.ps1
     Prerequisites  : Azure PowerShell module (Az), authenticated session with tenant-level access
+	
+.EXAMPLE: 
+	powershell.exe -ExecutionPolicy Bypass -File "PATH\Azure-FW-IP-Changer.ps1" -OldIP PUT_YOUR_OLD_IP -NewIP PUT_YOUR_NEW_IP
 #>
 
 param(
